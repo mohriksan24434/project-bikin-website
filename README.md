@@ -9,6 +9,9 @@
 * **Program Studi:** S1 Sistem Informasi
 * **Fakultas / Universitas:** Fakultas Teknik / Universitas Trunojoyo Madura
 * **Kegiatan:** Pelatihan CBT 2026 UKM Creative Computer Club (Triple-C)
+* **Link Website (Live Demo):** [https://mohriksan24434.github.io/project-bikin-website/](https://mohriksan24434.github.io/project-bikin-website/)
+* **Repository GitHub:** [https://github.com/mohriksan24434/project-bikin-website](https://github.com/mohriksan24434/project-bikin-website)
+
 
 ---
 
