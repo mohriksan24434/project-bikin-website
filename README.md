@@ -6,11 +6,17 @@
 
 ## 📌 Identitas Pembuat
 * **Nama Lengkap:** Moh. Riksan
+* **Umur:** 18 Tahun
+* **Asal:** Sampang, Madura
+* **Alumni:** Mamba'ul Ma'arif
+* **Status:** Mahasiswa Baru
 * **Program Studi:** S1 Sistem Informasi
-* **Fakultas / Universitas:** Fakultas Teknik / Universitas Trunojoyo Madura
+* **Fakultas / Universitas:** Fakultas Teknik / Universitas Trunojoyo Madura (UTM)
+* **Nomor WhatsApp:** [082334730904](https://wa.me/6282334730904)
 * **Kegiatan:** Pelatihan CBT 2026 UKM Creative Computer Club (Triple-C)
 * **Link Website (Live Demo):** [https://mohriksan24434.github.io/project-bikin-website/](https://mohriksan24434.github.io/project-bikin-website/)
 * **Repository GitHub:** [https://github.com/mohriksan24434/project-bikin-website](https://github.com/mohriksan24434/project-bikin-website)
+
 
 
 ---
