@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <!-- Metadata Dasar -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Blog Pribadi Moh. Riksan - Mahasiswa Sistem Informasi Universitas Trunojoyo Madura (UTM). Berbagi artikel seputar teknologi, web development, dan pengalaman perkuliahan.">
+  <meta name="author" content="Moh. Riksan">
+  
+  <title>Moh. Riksan | Blog Pribadi - Sistem Informasi UTM</title>
+  
+  <!-- Favicon Standar -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/profile-avatar.svg">
+  
+  <!-- CSS Utama -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========================================================================
+       HEADER & NAVIGASI (Wajib memiliki navigasi yang berfungsi antarhalaman)
+       ======================================================================== -->
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      
+      <!-- Brand Logo -->
+      <a href="index.html" class="brand-logo" title="Halaman Utama Moh. Riksan">
+        <div class="logo-badge">MR</div>
+        <div class="brand-title">
+          <span class="main-name">Moh. Riksan</span>
+          <span class="sub-name">Sistem Informasi UTM</span>
+        </div>
+      </a>
+
+      <!-- Tombol Mobile Hamburger (Responsif) -->
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Buka Menu Navigasi" aria-expanded="false">
+        <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+
+      <!-- Menu Navigasi Antarhalaman -->
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       HERO SECTION (Perkenalan Diri & Sambutan Utama)
+       ======================================================================== -->
+  <section class="hero-section">
+    <div class="container hero-grid">
+      
+      <!-- Kolom Teks Hero -->
+      <div class="hero-text">
+        <div class="hero-badge">
+          <span class="pulse-dot"></span>
+          <span>Peserta Pelatihan CBT 2026 • UKM Triple-C</span>
+        </div>
+        
+        <h1 class="hero-title">
+          Selamat Datang di Blog Pribadi <br>
+          <span class="text-highlight">Moh. Riksan</span>
+        </h1>
+        
+        <p class="hero-description">
+          Saya adalah mahasiswa Program Studi <strong>Sistem Informasi</strong> di <strong>Universitas Trunojoyo Madura</strong>. 
+          Blog ini menjadi wadah dokumentasi belajar, eksplorasi teknologi web development, dan refleksi seputar dunia digital.
+        </p>
+        
+        <div class="hero-buttons">
+          <a href="about.html" class="btn btn-primary">
+            <span>Kenal Lebih Dekat</span>
+            <span>&rarr;</span>
+          </a>
+          <a href="contact.html" class="btn btn-outline">
+            <span>Hubungi Saya</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Kolom Avatar Visual -->
+      <div class="hero-avatar-wrapper">
+        <div class="avatar-frame">
+          <img src="assets/images/profile-avatar.svg" alt="Avatar Profil Mahasiswa Moh. Riksan">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       MAIN CONTENT (Postingan Blog & Sidebar Informasi)
+       ======================================================================== -->
+  <main class="main-content">
+    <div class="container blog-layout">
+      
+      <!-- KOLOM UTAMA: DAFTAR ARTIKEL -->
+      <section class="articles-column">
+        
+        <div class="section-header">
+          <span class="section-tag">Artikel Pilihan</span>
+          <h2 class="section-title">Postingan Terbaru</h2>
+        </div>
+
+        <!-- Artikel Utama (Featured Post) -->
+        <article class="featured-article">
+          <div class="featured-img-wrap">
+            <img src="assets/images/post-web-dev.svg" alt="Ilustrasi Belajar Web Development">
+          </div>
+          <div class="featured-body">
+            <div class="article-meta">
+              <span class="badge-tag">Web Development</span>
+              <time datetime="2026-09-07">7 September 2026</time>
+              <span>• Waktu Baca: 4 Menit</span>
+            </div>
+            
+            <h3 class="article-title">
+              <a href="#article-1">Mengenal Fondasi Web Modern: Memahami Struktur HTML5 &amp; Desain Responsif CSS3</a>
+            </h3>
+            
+            <p class="article-excerpt">
+              Membangun website yang baik bukan sekadar tampilan yang menarik, melainkan bagaimana menyusun struktur tag semantik yang aksesibel, ramah SEO, dan beradaptasi sempurna di berbagai ukuran layar perangkat mobile maupun desktop.
+            </p>
+            
+            <div class="article-footer">
+              <div class="author-mini">
+                <img src="assets/images/profile-avatar.svg" alt="Foto Moh. Riksan">
+                <span>Moh. Riksan</span>
+              </div>
+              <a href="about.html" class="read-more-link">Baca Profil Penulis &rarr;</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Grid Postingan Lainnya -->
+        <div class="posts-grid">
+          
+          <!-- Post 2 -->
+          <article class="post-card">
+            <div class="post-card-img">
+              <img src="assets/images/post-si-utm.svg" alt="Sistem Informasi Universitas Trunojoyo Madura">
+            </div>
+            <div class="post-card-body">
+              <div class="article-meta">
+                <span class="badge-tag">Kampus &amp; SI</span>
+                <time datetime="2026-09-05">5 Sep 2026</time>
+              </div>
+              <h4 class="post-card-title">
+                <a href="#article-2">Pengalaman Kuliah di Sistem Informasi Universitas Trunojoyo Madura</a>
+              </h4>
+              <p class="post-card-excerpt">
+                Bagaimana integrasi antara teknologi informasi, logika bisnis, dan manajemen data dipelajari untuk menciptakan solusi digital yang berdampak nyata.
+              </p>
+              <div class="article-footer">
+                <span class="badge-tag" style="background-color: #f1f5f9; color: #475569;">Edukasi</span>
+                <span style="font-size: 0.85rem; color: #64748b;">3 min baca</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Post 3 -->
+          <article class="post-card">
+            <div class="post-card-img">
+              <img src="assets/images/post-cbt-triplec.svg" alt="Pelatihan CBT UKM Creative Computer Club">
+            </div>
+            <div class="post-card-body">
+              <div class="article-meta">
+                <span class="badge-tag">Organisasi</span>
+                <time datetime="2026-09-02">2 Sep 2026</time>
+              </div>
+              <h4 class="post-card-title">
+                <a href="#article-3">Menempa Kemampuan Komputasi Bersama UKM Creative Computer Club</a>
+              </h4>
+              <p class="post-card-excerpt">
+                Refleksi keikutsertaan dalam rangkaian pelatihan CBT 2026, mulai dari desain UI/UX, fundamental web, hingga kolaborasi tim teknologi.
+              </p>
+              <div class="article-footer">
+                <span class="badge-tag" style="background-color: #f1f5f9; color: #475569;">CBT26</span>
+                <span style="font-size: 0.85rem; color: #64748b;">5 min baca</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </section>
+
+      <!-- SIDEBAR (ASIDE WIDGETS) -->
+      <aside class="sidebar">
+        
+        <!-- Widget 1: Bio Penulis Ringkas -->
+        <div class="widget-card widget-author">
+          <div class="widget-author-avatar">
+            <img src="assets/images/profile-avatar.svg" alt="Foto Profil Moh. Riksan">
+          </div>
+          <h3 class="widget-author-name">Moh. Riksan</h3>
+          <p class="widget-author-title">Mahasiswa Sistem Informasi UTM</p>
+          <p class="widget-author-bio">
+            Tertarik pada perancangan antarmuka web, logika pemrograman, dan analisis arsitektur sistem informasi.
+          </p>
+          <a href="about.html" class="btn btn-outline" style="width: 100%; font-size: 0.85rem; padding: 8px 16px;">
+            Lihat Biodata Lengkap
+          </a>
+        </div>
+
+        <!-- Widget 2: Kategori Blog -->
+        <div class="widget-card">
+          <h3 class="widget-title">Kategori Artikel</h3>
+          <ul class="category-list">
+            <li>
+              <a href="index.html">Web Development</a>
+              <span class="category-count">1</span>
+            </li>
+            <li>
+              <a href="index.html">Sistem Informasi UTM</a>
+              <span class="category-count">1</span>
+            </li>
+            <li>
+              <a href="index.html">CBT 2026 Triple-C</a>
+              <span class="category-count">1</span>
+            </li>
+            <li>
+              <a href="index.html">Tutorial HTML &amp; CSS</a>
+              <span class="category-count">2</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Widget 3: Tag Populer -->
+        <div class="widget-card">
+          <h3 class="widget-title">Topik Populer</h3>
+          <div class="tags-cloud">
+            <span class="tag-item">HTML5</span>
+            <span class="tag-item">CSS Grid</span>
+            <span class="tag-item">Sistem Informasi</span>
+            <span class="tag-item">UTM Madura</span>
+            <span class="tag-item">Triple-C</span>
+            <span class="tag-item">JavaScript</span>
+            <span class="tag-item">UI Design</span>
+          </div>
+        </div>
+
+      </aside>
+
+    </div>
+  </main>
+
+  <!-- ========================================================================
+       FOOTER (Wajib mencantumkan nama pembuat pada website)
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <!-- Identitas Blog & Pembuat -->
+        <div class="footer-brand">
+          <h3>Moh. Riksan</h3>
+          <p>
+            Blog pribadi yang dibangun untuk pemenuhan tugas <strong>KC Website Pelatihan CBT26</strong> 
+            oleh <strong>UKM Creative Computer Club</strong>, Universitas Trunojoyo Madura.
+          </p>
+        </div>
+
+        <!-- Navigasi Cepat -->
+        <div class="footer-col">
+          <h4>Navigasi Halaman</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About (Profil Diri)</a></li>
+            <li><a href="contact.html">Contact (Hubungi)</a></li>
+          </ul>
+        </div>
+
+        <!-- Informasi Institusi -->
+        <div class="footer-col">
+          <h4>Institusi &amp; Kampus</h4>
+          <ul class="footer-links">
+            <li><a href="https://www.trunojoyo.ac.id" target="_blank" rel="noopener">Universitas Trunojoyo Madura</a></li>
+            <li><span>Program Studi Sistem Informasi</span></li>
+            <li><span>UKM Creative Computer Club (Triple-C)</span></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Copyright & Catatan Pengumpulan -->
+      <div class="footer-bottom">
+        <p>
+          &copy; <span id="currentYear">2026</span> Dibuat oleh 
+          <span class="footer-creator-highlight">Moh. Riksan</span> 
+          (Sistem Informasi - Universitas Trunojoyo Madura).
+        </p>
+        <p>Tugas Proyek KC Website CBT26 • Hak Cipta Dilindungi</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script Interaktivitas -->
+  <script src="js/script.js"></script>
+</body>
+</html>

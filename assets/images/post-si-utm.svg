@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgSi" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#042f2e" />
+      <stop offset="50%" stop-color="#115e59" />
+      <stop offset="100%" stop-color="#0f766e" />
+    </linearGradient>
+    <linearGradient id="glowTeal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2dd4bf" />
+      <stop offset="100%" stop-color="#14b8a6" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#bgSi)" />
+
+  <!-- Abstract Tech / Campus Architecture Shapes -->
+  <circle cx="700" cy="80" r="180" fill="#134e4a" opacity="0.5" />
+  <circle cx="100" cy="380" r="140" fill="#134e4a" opacity="0.6" />
+
+  <!-- Data / System Flow Nodes -->
+  <g stroke="#5eead4" stroke-width="2" stroke-dasharray="6,6" opacity="0.7">
+    <line x1="200" y1="220" x2="350" y2="140" />
+    <line x1="350" y1="140" x2="500" y2="200" />
+    <line x1="350" y1="140" x2="350" y2="310" />
+    <line x1="500" y1="200" x2="620" y2="280" />
+  </g>
+
+  <!-- Central Card -->
+  <g transform="translate(230, 100)">
+    <rect width="340" height="240" rx="20" fill="rgba(15, 23, 42, 0.75)" stroke="#2dd4bf" stroke-width="2" />
+    <!-- Icon Graduation / University Building -->
+    <circle cx="170" cy="70" r="36" fill="#0d9488" />
+    <path d="M145,70 L170,55 L195,70 L170,85 Z" fill="#ffffff" />
+    <path d="M152,75 L152,87 C152,95 188,95 188,87 L188,75" fill="none" stroke="#ffffff" stroke-width="2" />
+    <line x1="195" y1="70" x2="195" y2="90" stroke="#fef08a" stroke-width="2" />
+    <circle cx="195" cy="92" r="2.5" fill="#fef08a" />
+
+    <text x="170" y="138" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="bold" font-size="22" fill="#ffffff" text-anchor="middle">Sistem Informasi</text>
+    <text x="170" y="168" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="600" font-size="14" fill="#a7f3d0" text-anchor="middle">UNIVERSITAS TRUNOJOYO MADURA</text>
+    <rect x="80" y="190" width="180" height="28" rx="14" fill="#14b8a6" />
+    <text x="170" y="209" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="700" font-size="12" fill="#ffffff" text-anchor="middle">JOURNEY &amp; EXPERIENCE</text>
+  </g>
+
+  <!-- Side Floating Nodes -->
+  <g transform="translate(140, 200)">
+    <circle cx="0" cy="0" r="32" fill="#0f766e" stroke="#5eead4" stroke-width="2" />
+    <text x="0" y="6" font-family="sans-serif" font-weight="bold" font-size="13" fill="#ffffff" text-anchor="middle">DATA</text>
+  </g>
+
+  <g transform="translate(630, 280)">
+    <circle cx="0" cy="0" r="32" fill="#0f766e" stroke="#5eead4" stroke-width="2" />
+    <text x="0" y="6" font-family="sans-serif" font-weight="bold" font-size="13" fill="#ffffff" text-anchor="middle">TECH</text>
+  </g>
+</svg>

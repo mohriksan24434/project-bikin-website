@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="60%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#1e3a8a" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#334155" />
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#bgGrad1)" />
+
+  <!-- Subtle Grid lines -->
+  <g stroke="#334155" stroke-width="1" opacity="0.4">
+    <line x1="0" y1="75" x2="800" y2="75" />
+    <line x1="0" y1="150" x2="800" y2="150" />
+    <line x1="0" y1="225" x2="800" y2="225" />
+    <line x1="0" y1="300" x2="800" y2="300" />
+    <line x1="0" y1="375" x2="800" y2="375" />
+    <line x1="100" y1="0" x2="100" y2="450" />
+    <line x1="200" y1="0" x2="200" y2="450" />
+    <line x1="300" y1="0" x2="300" y2="450" />
+    <line x1="400" y1="0" x2="400" y2="450" />
+    <line x1="500" y1="0" x2="500" y2="450" />
+    <line x1="600" y1="0" x2="600" y2="450" />
+    <line x1="700" y1="0" x2="700" y2="450" />
+  </g>
+
+  <!-- Code Editor Window Mockup -->
+  <g transform="translate(150, 70)">
+    <!-- Window Frame -->
+    <rect width="500" height="310" rx="14" fill="#090d16" stroke="#475569" stroke-width="1.5" />
+    <!-- Window Bar -->
+    <path d="M0,14 Q0,0 14,0 L486,0 Q500,0 500,14 L500,38 L0,38 Z" fill="#1e293b" />
+    <!-- Window Dots -->
+    <circle cx="20" cy="19" r="6" fill="#ef4444" />
+    <circle cx="40" cy="19" r="6" fill="#f59e0b" />
+    <circle cx="60" cy="19" r="6" fill="#10b981" />
+    <!-- Tab -->
+    <rect x="90" y="8" width="130" height="24" rx="4" fill="#090d16" />
+    <text x="110" y="24" font-family="monospace" font-size="11" fill="#94a3b8">index.html</text>
+
+    <!-- Code Content -->
+    <text x="30" y="75" font-family="'Courier New', monospace" font-size="14" fill="#f43f5e">&lt;!DOCTYPE html&gt;</text>
+    <text x="30" y="105" font-family="'Courier New', monospace" font-size="14" fill="#38bdf8">&lt;html <tspan fill="#fbbf24">lang</tspan>=<tspan fill="#34d399">"id"</tspan>&gt;</text>
+    <text x="50" y="135" font-family="'Courier New', monospace" font-size="14" fill="#38bdf8">&lt;head&gt;</text>
+    <text x="70" y="165" font-family="'Courier New', monospace" font-size="14" fill="#38bdf8">&lt;title&gt;<tspan fill="#f1f5f9">Personal Blog Moh. Riksan</tspan>&lt;/title&gt;</text>
+    <text x="50" y="195" font-family="'Courier New', monospace" font-size="14" fill="#38bdf8">&lt;/head&gt;</text>
+    <text x="50" y="225" font-family="'Courier New', monospace" font-size="14" fill="#38bdf8">&lt;body&gt;</text>
+    <text x="70" y="255" font-family="'Courier New', monospace" font-size="14" fill="#38bdf8">&lt;h1&gt;<tspan fill="#60a5fa">Hello Creative 2026!</tspan>&lt;/h1&gt;</text>
+    <text x="50" y="285" font-family="'Courier New', monospace" font-size="14" fill="#38bdf8">&lt;/body&gt;</text>
+  </g>
+
+  <!-- Glowing Badges -->
+  <g transform="translate(80, 240)" filter="url(#glow)">
+    <rect width="120" height="42" rx="10" fill="#2563eb" />
+    <text x="60" y="26" font-family="sans-serif" font-weight="bold" font-size="15" fill="#ffffff" text-anchor="middle">HTML5 &amp; CSS</text>
+  </g>
+
+  <g transform="translate(600, 140)" filter="url(#glow)">
+    <rect width="120" height="42" rx="10" fill="#059669" />
+    <text x="60" y="26" font-family="sans-serif" font-weight="bold" font-size="15" fill="#ffffff" text-anchor="middle">WEB DEV</text>
+  </g>
+</svg>
