@@ -1,6 +1,6 @@
-# Website Blog Pribadi - Moh. Riksan
+# Website Profil Pribadi - Moh. Riksan
 **Tugas KC Website • Pelatihan CBT 2026**  
-**UKM Creative Computer Club (Triple-C) - Universitas Trunojoyo Madura**
+**UKM Triple-C (Creative Computer Club) - Universitas Trunojoyo Madura**
 
 ---
 
@@ -13,11 +13,9 @@
 * **Program Studi:** S1 Sistem Informasi
 * **Fakultas / Universitas:** Fakultas Teknik / Universitas Trunojoyo Madura (UTM)
 * **Nomor WhatsApp:** [082334730904](https://wa.me/6282334730904)
-* **Kegiatan:** Pelatihan CBT 2026 UKM Creative Computer Club (Triple-C)
+* **Organisasi:** UKM Triple-C, UKM EECOM, UKMFT-ITC, Komunitas Koalisi, IKAMABES
 * **Link Website (Live Demo):** [https://mohriksan24434.github.io/project-bikin-website/](https://mohriksan24434.github.io/project-bikin-website/)
 * **Repository GitHub:** [https://github.com/mohriksan24434/project-bikin-website](https://github.com/mohriksan24434/project-bikin-website)
-
-
 
 ---
 
@@ -25,19 +23,17 @@
 
 ```text
 blog-pribadi-cbt26/
-├── index.html                  # Halaman Utama (Home): Hero, Featured Post, Recent Posts, Sidebar
-├── about.html                  # Halaman Tentang (About): Biodata, Latar Belakang, Skills, Hobi
-├── contact.html                # Halaman Kontak (Contact): Form Pesan, Informasi Kontak, Medsos
+├── index.html                  # Halaman Utama (Home): Hero, Info Pribadi, Organisasi & Komunitas, Hobi
+├── about.html                  # Halaman Tentang (About): Biodata, Pendidikan & Org, Hobi Lengkap
+├── contact.html                # Halaman Kontak (Contact): Form Pesan, Info Kontak & WhatsApp
 ├── css/
 │   └── style.css               # Styling kustom (Responsive CSS Grid & Flexbox, Design Tokens)
 ├── js/
 │   └── script.js               # Interaktivitas (Mobile menu toggle, form submit handler)
 ├── assets/
-│   └── images/                 # Aset grafis legal & orisinal (SVG)
-│       ├── profile-avatar.svg  # Ilustrasi avatar profil mahasiswa
-│       ├── post-web-dev.svg    # Thumbnail artikel web development
-│       ├── post-si-utm.svg     # Thumbnail artikel Sistem Informasi UTM
-│       └── post-cbt-triplec.svg# Thumbnail artikel kegiatan CBT26 Triple-C
+│   └── images/                 # Aset grafis orisinal
+│       ├── foto-riksan.jpg     # Foto profil asli Moh. Riksan
+
 └── README.md                   # Dokumentasi pemenuhan ketentuan & petunjuk pengumpulan
 ```
 
